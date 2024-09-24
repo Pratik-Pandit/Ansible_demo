@@ -1,0 +1,6 @@
+- name: DSW
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Welcome To DSW!"
